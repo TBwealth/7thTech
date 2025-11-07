@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: 'avenir-regular';
+  src: url(../assets/fonts/avenir/Avenir-Regular.ttf) format(opentype);
+}
+
+@font-face {
+  font-family: 'avenir-bold';
+  src: url(../assets/fonts/avenir/Avenir-Black.ttf) format(opentype);
+
+}
+
+@font-face {
+  font-family: 'avenir-medium';
+  src: url(../assets/fonts/avenir/Avenir-Book.ttf) format(opentype);
+
+}
+
+@font-face {
+  font-family: 'avenir-bolder';
+  src: url(../assets/fonts/avenir/Avenir-Heavy.ttf) format(opentype);
+
+}
+
+
+@theme {
+  --font-avenir: 'avenir-regular', sans-serif;
+  --color-primary: #7930F4;
+  --color-secondary: #81026D;
+    --breakpoint-sm: 40rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+  --breakpoint-2xl: 96rem;
+
+}
+  @custom-variant dark (&:where(.dark, .dark *));
+
+body {
+ width: 100%;
+  font-family: font-avenir;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

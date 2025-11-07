@@ -25,7 +25,7 @@ export default function Contactus() {
       <div className='w-[90%] md:w-[80%] mx-auto py-8! '>
         <div className='grid md:grid-cols-12 grid-cols-1 gap-2'>
           <div className='md:col-span-4 2xl:pt-16!'>
-            <div className='border border-secondary rounded-lg p-6! bg-white shadow-md'>
+            <div className='border border-secondary rounded-lg px-6! py-12 bg-white shadow-md'>
               <div className='flex flex-col space-y-4!'>
                 <div><img src={logo} className='md:w-20 2xl:w-32' /></div>
                 <div>

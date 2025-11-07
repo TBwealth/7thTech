@@ -30,7 +30,7 @@ export default function Contactus() {
                 <div><img src={logo} className='md:w-20 2xl:w-32' /></div>
                 <div>
                   <h4 className='font-black! text-2xl!'>Let’s Connect</h4>
-                  <p className='text-[#5A5A5A]'>"We're here to help! Whether you have questions, feedback, or collaboration opportunities, don't hesitate to reach out. Our team is ready to work with you."</p>
+                  <p className='text-[#5A5A5A]'>"We are here to help! Whether you have questions, feedback, or collaboration opportunities, do not hesitate to reach out. Our team is ready to work with you."</p>
                 </div>
                 <div className='py-4 flex-col space-y-2! flex'>
                   <div className='flex space-x-2!'>

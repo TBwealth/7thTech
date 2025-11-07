@@ -13,7 +13,7 @@ export default function Products() {
         <div className='flex justify-center w-full '>
           <div className='flex space-x-2 items-center'>
              <img src={RightUnion} alt="Decoration" className="ml-4 mt-1" />
-            <h4 className='text-xl font-thin'>Featured Product</h4>     
+            <h4 className='text-xl font-thin'>Products</h4>     
            
           </div>            
         </div>

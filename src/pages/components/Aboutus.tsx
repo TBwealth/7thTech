@@ -67,20 +67,20 @@ export default function Aboutus() {
           <div className="grid md:grid-cols-3 grid-cols-1 gap-8">
             <div className='flex space-x-2 items-center border border-white rounded-lg p-4'>
               <img src={organizedTeamIcon} alt="Team Icon"  />
-              <h4 className='font-black text-xl w-[50%] text-white'>Organized Team
+              <h4 className='font-black md:text-xl text-lg w-[50%] text-white'>Organized Team
 of Professionals</h4>
             </div>
 
                 <div className='flex space-x-2 items-center border border-white rounded-lg p-4'>
               <img src={latestBusinessIcon} alt="Team Icon"  />
-              <h4 className='font-black text-xl w-[50%] text-white'>Organized Team
-of Professionals</h4>
+              <h4 className='font-black md:text-xl text-lg w-[50%] text-white'>Latest Business
+Technology Modules</h4>
             </div>
 
                 <div className='flex space-x-2 items-center border border-white rounded-lg p-4'>
               <img src={longLastingIcon} alt="Team Icon"  />
-              <h4 className='font-black text-xl w-[50%] text-white'>Organized Team
-of Professionals</h4>
+              <h4 className='font-black md:text-xl text-lg w-[50%] text-white'>Long Lasting
+Experience Support</h4>
             </div>
 
           </div>

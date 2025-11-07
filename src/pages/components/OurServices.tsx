@@ -109,7 +109,7 @@ export default function OurServices() {
             </div>
           </div>
         </div>
-        <p className='text-white text-xl'>At 7th Technology Solutions, we're not just a technology provider – we're your trusted partner in navigating the complexities of the digital landscape and unlocking the full potential of your business. Experience the difference with 7th Technology Solutions and embark on a journey of innovation, growth, and success.</p>
+        <p className='text-white text-xl'>At 7th Technology Solutions, we are not just a technology provider – we are your trusted partner in navigating the complexities of the digital landscape and unlocking the full potential of your business. Experience the difference with 7th Technology Solutions and embark on a journey of innovation, growth, and success.</p>
       </div>   
 
       
